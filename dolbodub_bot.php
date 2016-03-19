@@ -76,7 +76,7 @@ switch(strtolower_ru($message)) {
     break;
   default:
     sendMessage($chat_id, 'Неизвестная команда!' );
-    // sendMessage($chat_id, 'Неизвестная команда!' );
+    // sendMessage($chat_id, 'Неизвестная команда!!!' );
     break;
 }
 
