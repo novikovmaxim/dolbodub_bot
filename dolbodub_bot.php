@@ -75,7 +75,7 @@ switch(strtolower_ru($message)) {
   case ('/start'):
     break;
   default:
-    sendMessage($chat_id, 'Неизвестная команда!' );
+    sendMessage($chat_id, 'Неизвестная команда!!' );
     // sendMessage($chat_id, 'Неизвестная команда!!!' );
     break;
 }
